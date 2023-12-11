@@ -62,6 +62,22 @@ img {
   box-shadow: 0px 0px 10px #b979ad;
   border-radius: 2%;
 }
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+nav a:hover {
+  color: darkmagenta;
+}
 
 .project-description {
   padding: 20px;
